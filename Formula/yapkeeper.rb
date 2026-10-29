@@ -1,28 +1,28 @@
 class Yapkeeper < Formula
   desc "Find, browse and resume Claude Code, Codex and Pi sessions"
   homepage "https://github.com/julianbonomini/yapkeeper"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/julianbonomini/yapkeeper/releases/download/v0.1.1/yapkeeper-aarch64-apple-darwin.tar.gz"
-      sha256 "eb2b702874b9e6253a1ee18c99d90529d4361718c4ec8d0a0b0a3b491baeb15a"
+      url "https://github.com/julianbonomini/yapkeeper/releases/download/v0.2.0/yapkeeper-aarch64-apple-darwin.tar.gz"
+      sha256 "d8f4953054fe5824e314b636f56952c1b8c8530baf2f3d916f100e474f6476e3"
     end
     on_intel do
-      url "https://github.com/julianbonomini/yapkeeper/releases/download/v0.1.1/yapkeeper-x86_64-apple-darwin.tar.gz"
-      sha256 "4aa976672501addb7d9473974d26b00ca618511d309298c78eab34f14b01ac0e"
+      url "https://github.com/julianbonomini/yapkeeper/releases/download/v0.2.0/yapkeeper-x86_64-apple-darwin.tar.gz"
+      sha256 "df89e9b49a7641de30227dfc372cc37c9048b42eb2b9122c5927ebd9a5725d24"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/julianbonomini/yapkeeper/releases/download/v0.1.1/yapkeeper-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "07fead2f45121008117fb5b9e9af2294275ca45b1e81455a4e91aa559609f25b"
+      url "https://github.com/julianbonomini/yapkeeper/releases/download/v0.2.0/yapkeeper-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "e110bc536fa7daa9fb17cd53a6b0c62932895f3a64e5bf4703581c95979c87d9"
     end
     on_intel do
-      url "https://github.com/julianbonomini/yapkeeper/releases/download/v0.1.1/yapkeeper-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "417eab51fbf3e3bab49355943fae75eaebadd4cf8fa695b01b8927cb43ebdfea"
+      url "https://github.com/julianbonomini/yapkeeper/releases/download/v0.2.0/yapkeeper-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "f5a453f98444dc7c18aa42d82a8ff71c933354bf34c9a42949ddd210df7a1f2e"
     end
   end
 
